@@ -31,7 +31,7 @@ For information about controlling how line ends are drawn, see [Control line end
 
 ## Create a Line
 
-To draw a line, create a `Line` object and set its `X1` and `Y1` properties to its start point, and its `X2` and `Y` properties to its end point. In addition, set its `Stroke` property to a [`Color`](xref:Xamarin.Forms.Color) because a line without a stroke is invisible.
+To draw a line, create a `Line` object and set its `X1` and `Y1` properties to its start point, and its `X2` and `Y2` properties to its end point. In addition, set its `Stroke` property to a [`Color`](xref:Xamarin.Forms.Color) because a line without a stroke is invisible.
 
 > [!NOTE]
 > Setting the `Fill` property of a `Line` has no effect, because a line has no interior.
